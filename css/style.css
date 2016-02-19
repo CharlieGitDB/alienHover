@@ -1,0 +1,155 @@
+@-webkit-keyframes bgpulse {
+    0%   {background-color: #CEE3F8;}
+    50%  {background: #ccc;}
+    100% {background: #CEE3F8;}
+}
+.commentwindow {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 40%;
+  height: 100%;
+  background: white;
+  border-left: 1px solid #5F99CF;
+  border-bottom: 1px solid #5F99CF;
+  z-index: 3000000000;
+  margin-right: -45%
+}
+.menu {
+  top: 0px;
+  width: 100%;
+  background: #CEE3F8;
+  height: 64px;
+  border-bottom: 1px solid #5F99CF;
+}
+.menu:hover {
+  -webkit-animation: bgpulse 1s infinite;
+  cursor: pointer;
+}
+.hamburgerimg {
+  height: 32px;
+  margin-top: 16px;
+  margin-left: 25px;
+}
+.menutitle {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  top: -35px;
+}
+.commentarea {
+  height: 93.1%;
+  overflow-y: scroll;
+}
+.themenuoptions {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
+.donateplaceholder {
+  margin: auto;
+  padding: 3px;
+}
+.alignmentbtn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #5f99cf);
+  background-image: -moz-linear-gradient(top, #3498db, #5f99cf);
+  background-image: -ms-linear-gradient(top, #3498db, #5f99cf);
+  background-image: -o-linear-gradient(top, #3498db, #5f99cf);
+  background-image: linear-gradient(to bottom, #3498db, #5f99cf);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
+.alignmentbtn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+.menuisopenhamicon {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -moz-transform: rotate(90deg); /* Firefox */
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -o-transform: rotate(90deg); /* Opera */
+}
+.hoverimghere {
+  position: fixed;
+  height: 100%;
+  background: white;
+  width: 60%;
+  top: 0px;
+  left: 0px;
+  z-index: 500000;
+}
+.hoveriframe {
+  width: 100%;
+  height: 100%;
+}
+.firsttimeholder {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  z-index: 5000000000000;
+}
+.firsttimeinfobox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 5000000000001;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+.hellofirsttimer {
+  font-size: 25px;
+  color: red;
+}
+.contentstuff {
+  font-size: 16px;
+}
+.hoveropenishere {
+  width: 800px;
+  height: 317px;
+  border: 1px solid black;
+}
+.commentstitlealienhover {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+.exitbtnalienhover {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  font-size: 16px;
+  border: 1px solid #5F99CF;
+  background: #CEE3F8;
+  padding: 3px;
+  cursor: pointer;
+}
+.hoverimghereexit {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 2px;
+  background: white;
+  cursor: pointer;
+}
+.hoverimghereexit:hover {
+  background: #ccc;
+}

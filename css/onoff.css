@@ -1,0 +1,172 @@
+.onoffswitch {
+    position: relative; width: 82px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 22px; padding: 0; line-height: 22px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 22px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 58px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #5F99CF;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #5F99CF;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+
+
+
+.darkmodeswitch {
+    position: relative; width: 82px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+}
+.darkmode-checkbox {
+    display: none;
+}
+.darkmode-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 22px; padding: 0; line-height: 22px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.darkmode-label:before {
+    content: "";
+    display: block; width: 22px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 58px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    transition: all 0.3s ease-in 0s;
+}
+.darkmode-checkbox:checked + .darkmode-label {
+    background-color: #5F99CF;
+}
+.darkmode-checkbox:checked + .darkmode-label, .darkmode-checkbox:checked + .darkmode-label:before {
+   border-color: #5F99CF;
+}
+.darkmode-checkbox:checked + .darkmode-label:before {
+    right: 0px;
+}
+
+.darkmodeswitch {
+    position: relative; width: 82px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+}
+.darkmode-checkbox {
+    display: none;
+}
+.darkmode-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 22px; padding: 0; line-height: 22px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.darkmode-label:before {
+    content: "";
+    display: block; width: 22px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 58px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    transition: all 0.3s ease-in 0s;
+}
+.darkmode-checkbox:checked + .darkmode-label {
+    background-color: #5F99CF;
+}
+.darkmode-checkbox:checked + .darkmode-label, .darkmode-checkbox:checked + .darkmode-label:before {
+   border-color: #5F99CF;
+}
+.darkmode-checkbox:checked + .darkmode-label:before {
+    right: 0px;
+}
+
+.darkmodeswitch {
+    position: relative; width: 82px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+}
+.darkmode-checkbox {
+    display: none;
+}
+.darkmode-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 22px; padding: 0; line-height: 22px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.darkmode-label:before {
+    content: "";
+    display: block; width: 22px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 58px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    transition: all 0.3s ease-in 0s;
+}
+.darkmode-checkbox:checked + .darkmode-label {
+    background-color: #5F99CF;
+}
+.darkmode-checkbox:checked + .darkmode-label, .darkmode-checkbox:checked + .darkmode-label:before {
+   border-color: #5F99CF;
+}
+.darkmode-checkbox:checked + .darkmode-label:before {
+    right: 0px;
+}
+
+
+.linkhoverswitch {
+    position: relative; width: 82px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+}
+.linkhover-checkbox {
+    display: none;
+}
+.linkhover-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 22px; padding: 0; line-height: 22px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.linkhover-label:before {
+    content: "";
+    display: block; width: 22px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 58px;
+    border: 2px solid #CCCCCC; border-radius: 22px;
+    transition: all 0.3s ease-in 0s;
+}
+.linkhover-checkbox:checked + .linkhover-label {
+    background-color: #5F99CF;
+}
+.linkhover-checkbox:checked + .linkhover-label, .linkhover-checkbox:checked + .linkhover-label:before {
+   border-color: #5F99CF;
+}
+.linkhover-checkbox:checked + .linkhover-label:before {
+    right: 0px;
+}
